@@ -1,42 +1,160 @@
 ---
 sidebar_position: 2
+slug: "goverment"
 ---
 
 # Goverment
 
-import TOCInline from '@theme/TOCInline';
+import { Image, Flex, Heading } from "@chakra-ui/react"
 
-<TOCInline toc={toc} />
+<Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
+  <Image   
+    objectFit="cover" src="img/flag1.jpg" alt="Somaliland emblem" />
+</Flex>
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Chapter 1 - Goverment
 
-## Getting Started
+The government of Somaliland comprises legislative, executive, and judicial branches – each
+of which counterchecks the other but does not have a direct overarching jurisdiction over the
+other paving the way for a system of check-and-balance.
 
-Get started by **creating a new site**.
+The legislative comprises a bicameral
+parliament breaking into the house of elders, ‘Guurti’ or (Upper House of Parliament) and the Lower
+House which is called the House of Representatives. Each of the two houses has 82 members.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+The Guurti was born with the rebirth of the Republic and the restoration of its lost sovereignty in 1991 as an
+extension of the Elders’ Council that adjudicated social and judicial matters during the emancipation years in
+Ethiopia in the mid and late-80s.
 
-## Generate a new site
+The first elected members of the House of Representatives took their oath
+in 2005 following a one-person, one-vote election which decided who was to represent the constituents.
 
-Generate a new Docusaurus site using the **classic template**:
+The Executive Branch is headed by a President and a Vice President who are popularly elected on one of
+three national political parties’ tickets.
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+His Excellency President Musa Bihi Abdi, elected in late 2017, presently
+heads the state. H.E. Abdirahman Abdullahi Ismail ‘Zeili’i is the Vice President.
 
-## Start your site
+The current government is the
+fifth in the 29-year history of the Republic and the third elected on the one-person, a one-vote democratic
+system with each government handing over reins of government to the next, succeeding administration
+peacefully and without rift or rancor.
 
-:::tip Somaliland again independence from UK on 1960
+<Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
+  <Image   
+    objectFit="cover" src="img/muusebiixi.jpeg" alt="Somaliland emblem" />
+</Flex>
+
+<em>Somaliland President His Excellency President <strong>Musa Bihi Abdi</strong></em>
+
+---
+
+### Country Name
+
+Republic of Somaliland (Jamhuuriyadda Somaliland).
+
+#### Short Form
+
+Somaliland.
+
+### Government type
+
+Presidential Republic
+
+### Demonym
+
+Somalilander(s).
+
+### Capital
+
+Hargeisa (alternate spelling: Hargeysa).
+
+### Major Cities
+
+Hargeisa, Burao, Borama, Berbera, Las Anod, and Erigavo.
+
+### Independence
+
+Somaliland officially attained its independence from Britain on June 26, 1960.
+
+### Restoration of Sovereignty
+
+The Republic of Somaliland restored its sovereignty on 18 May 1991 withdrawing
+from the unlawful merger with Somalia. The decision was made by the Grand
+Conference of Clan Elders held in Burao from 27 April to 15 May 1991. It was later
+supported by the Somaliland Public after the referendum was held that affirmed
+Somaliland’s reinstating sovereignty from Somalia as a separate independent
+sovereign state where 97.1 % voted in favor of the reclaimed sovereignty.
+3
+
+:::tip Somaliland is Independent Country
+
+Somaliland officially attained its independence from Britain on June 26, 1960.
+
 :::
 
-Run the development server:
+### Public Holidays
 
-```shell
-cd my-website
+| Tables |                   Description                   | Number of Days |
+| ------ | :---------------------------------------------: | -------------: |
+| 1      |                  Eid al Fitri                   |         2 days |
+| 2      |                   Eid al Adha                   |         2 days |
+| 3      |                 Maulid un Nabi                  |          1 day |
+| 4      |                 Muslim New Year                 |          1 day |
+| 5      |            Lailatul Isra Wal Mi’raj             |           1day |
+| 6      |            International Labour Day             |          1 day |
+| 7      | Somaliland Re assertion of independence, 18 May |         2 days |
+| 8      |        Somaliland 1960 Independence Day         |          1 day |
+| 9      |     Gregorian Calendar New Year, 1 January      |          1 day |
 
-npx docusaurus start
-```
+### Flag description
 
-Your site starts at `http://localhost:3000`.
+<p style={{flex: 2}}>
+The flag of the Republic of Somaliland consists of three horizontal, parallel
+stripes: green, white and red from top to bottom with the Islamic Shahada
+inscribed on the green and a black, five-pointed star centred on the white,
+middle stripe.
+</p>
+<img src="img/flag4.png" alt="somaliland flag"/>
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+### National Emblem
+
+<p style={{flex: 2}}>
+The emblem, set off by a circular yellow background, consists of a coffeecolored
+falcon sitting below two scales and at the bottom of which are two
+hands clasped in a handshake. Starting from an intertwined knot at the
+bottom two, open-ended laurels branch off upwards on either side of the
+scales and the falcon. The Bismillah in Arabic closes the gap at the top of
+the laurels and the words Allahu Akbar (Allah is Great) are inscribed on the
+chest of the falcon.
+</p>
+<img src="img/emblem2.png" alt="somaliland emblem"/>
+
+### National Anthem
+
+The Republic of Somaliland National anthem - ‘ Samo ku waar’ (Live in Eternal
+Peace) 1 - was composed by the late great playwright and songwriter, Hassan
+Sheikh Mumin.
+
+### Constitution
+
+The Constitution of the Republic of Somaliland was adopted by the House of Representatives on 30 April 2000.
+It replaced a National Charter that has served as the principal guiding document since it was passed in 1993 at
+the Borama conference. Subsequently, the political system of Somaliland has had this transition from clans elected
+representatives to popular elections. And it was the historic year of 2001, when the national referendum was held, in
+which 97.% of voters, who turned out in large numbers, not only ratified the national constitution but also reaffirmed
+the decision for Somaliland to reinstate its sovereign nation-state.
+
+### Judicial system
+
+The National Constitution defines the country’s judicial system as: ‘‘The state [180] shall have a judicial
+branch whose function is to adjudicate on proceedings between the Government and the public and
+between the various members of the public (Article 97 (1), which also establishes the Supreme Court,
+Appellate courts of the regions, regional courts, district courts and the courts of the national armed forces.
+
+### Political Parties
+
+The Republic of Somaliland’s Constitution permits three national political parties which are currently
+`Kulmiye` (ruling party), `UCID` and `WADDANI` – the two opposition parties.
+
+<img src="img/parties.jpg" alt="somaliland political parties 2021"/>
