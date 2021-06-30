@@ -102,7 +102,7 @@ The Coastal plain “Guban” is between the sea and the mountain range known as
 of land the coast and is very hot hence the name `Guban’, meaning “the burnt” in Somali.
 <Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
 <Image   
-    objectFit="cover" src="img/landform.png" alt="Somaliland Map " />
+    objectFit="cover" src="img/landform.PNG" alt="Somaliland Map " />
 </Flex>
 
 Guban gets narrower towards the East and wider towards the West. The Golis range (Oogo) is the escarpment south

@@ -95,17 +95,17 @@ Somaliland officially attained its independence from Britain on June 26, 1960.
 
 ### Public Holidays
 
-| Tables |                   Description                   | Number of Days |
-| ------ | :---------------------------------------------: | -------------: |
-| 1      |                  Eid al Fitri                   |         2 days |
-| 2      |                   Eid al Adha                   |         2 days |
-| 3      |                 Maulid un Nabi                  |          1 day |
-| 4      |                 Muslim New Year                 |          1 day |
-| 5      |            Lailatul Isra Wal Mi’raj             |           1day |
-| 6      |            International Labour Day             |          1 day |
+| Tables | Description                                     | Number of Days |
+| ------ | :---------------------------------------------- | -------------: |
+| 1      | Eid al Fitri                                    |         2 days |
+| 2      | Eid al Adha                                     |         2 days |
+| 3      | Maulid un Nabi                                  |          1 day |
+| 4      | Muslim New Year                                 |          1 day |
+| 5      | Lailatul Isra Wal Mi’raj                        |           1day |
+| 6      | International Labour Day                        |          1 day |
 | 7      | Somaliland Re assertion of independence, 18 May |         2 days |
-| 8      |        Somaliland 1960 Independence Day         |          1 day |
-| 9      |     Gregorian Calendar New Year, 1 January      |          1 day |
+| 8      | Somaliland 1960 Independence Day                |          1 day |
+| 9      | Gregorian Calendar New Year, 1 January          |          1 day |
 
 ### Flag description
 
