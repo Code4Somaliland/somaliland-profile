@@ -20,7 +20,7 @@ module.exports = {
       },
       items: [
         {
-          to: "/home",
+          to: "/about",
           position: "left",
           label: "About",
         },
@@ -30,28 +30,28 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Profile",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Profile",
+              to: "/",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Other Links",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Ministry of Foriegn Affiars",
+              href: "https://somalilandmfa.com/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Goverment Site",
+              href: "https://www.govsomaliland.org/",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/somalilandmfa%20",
             },
           ],
         },
@@ -59,12 +59,12 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Ministry of Information",
+              to: "https://warfaafintajsl.com/",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Ministry of Interior",
+              href: "https://somalilandinterior.net/",
             },
           ],
         },
