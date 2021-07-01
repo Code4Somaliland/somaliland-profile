@@ -5,12 +5,10 @@ slug: "goverment"
 
 # Goverment
 
-import { Image, Flex, Heading } from "@chakra-ui/react"
+import { Flex, Heading } from "@chakra-ui/react"
+import Image from '@theme/IdealImage';
 
-<Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
-  <Image   
-    objectFit="cover" src="img/flag1.jpg" alt="Somaliland emblem" />
-</Flex>
+<Image img={require("/img/flag1.jpg")} />
 
 ## Chapter 1 - Goverment
 
@@ -40,10 +38,10 @@ fifth in the 29-year history of the Republic and the third elected on the one-pe
 system with each government handing over reins of government to the next, succeeding administration
 peacefully and without rift or rancor.
 
-<Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
-  <Image   
+<!-- <Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
+  <Image
     objectFit="cover" src="img/muusebiixi.jpeg" alt="Somaliland emblem" />
-</Flex>
+</Flex> -->
 
 <em>Somaliland President His Excellency President <strong>Musa Bihi Abdi</strong></em>
 
