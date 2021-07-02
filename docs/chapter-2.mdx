@@ -3,13 +3,13 @@ sidebar_position: 3
 slug: "geography"
 ---
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Flex, Heading, Image } from "@chakra-ui/react";
+
 # Geography
 
-import { Image, Flex, Heading } from "@chakra-ui/react"
-
-<Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
-  <Image   
-    objectFit="cover" src="img/geomap.jpg" alt="Somaliland Map " />
+<Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
+  <img src="/img/geomap.jpg" loading="lazy" />
 </Flex>
 
 ## Chapter 2 - Geography
@@ -18,7 +18,7 @@ import { Image, Flex, Heading } from "@chakra-ui/react"
 
 East Africa <strong>(Also, referred to as the Horn of Africa)</strong>
 
-### Geographical Coordinates:
+### Geographical Coordinates
 
 The Republic of Somaliland is situated in the Horn of Africa. The territory of the Republic of Somaliland covers the
 same area as that of the former Somaliland Protectorate and is located between Latitude 8’ to 11’ 30’ north of the
@@ -39,13 +39,16 @@ Italian Protocol of 1894, and the Anglo-Ethiopian treaty of 1897. The Djibouti�
 established by the Anglo–French agreement of February 2–9, 1888, as follows: 3
 
 <em>
-The protectorates exercised, or to be exercised by France and Great Britain shall be separated by a straight
-line starting from a point on the coast situated opposite the wells of Hadou [at Loyada], and leading through
-the said wells to Abassouen; from Abassouen the line shall follow the caravan road as far as Bia-Kabouba,
-and from this latter point it shall follow the caravan route from Zeyla [Zeila] to Harrar [Harer] passing by
-Gildessa [Jaldesa].
-It is expressly agreed that the use of the wells of Hadou shall be common to both parties.
-</em><br/>
+  The protectorates exercised, or to be exercised by France and Great Britain
+  shall be separated by a straight line starting from a point on the coast
+  situated opposite the wells of Hadou [at Loyada], and leading through the said
+  wells to Abassouen; from Abassouen the line shall follow the caravan road as
+  far as Bia-Kabouba, and from this latter point it shall follow the caravan
+  route from Zeyla [Zeila] to Harrar [Harer] passing by Gildessa [Jaldesa]. It
+  is expressly agreed that the use of the wells of Hadou shall be common to both
+  parties.
+</em>
+<br />
 
 The Anglo-Ethiopian Treaty of 1897 (sometimes called the Rodd Treaty) was an agreement negotiated between
 diplomat Sir Rennell Rodd of Great Britain and Emperor Menelik II of Ethiopia primarily involving border issues
@@ -100,10 +103,10 @@ ranks 89th in a list of 195 world nations 8 .
 Somaliland consists of three topographic zones: coastal plain (Guban), mountain range (Oogo) and plateau (Hawd).
 The Coastal plain “Guban” is between the sea and the mountain range known as “Golis”. This is a narrow and dry strip
 of land the coast and is very hot hence the name `Guban’, meaning “the burnt” in Somali.
-<Flex boxSize="xs" bg="red.200" justify="center" mb={12} >
-<Image   
-    objectFit="cover" src="img/landform.PNG" alt="Somaliland Map " />
-</Flex>
+
+// <Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
+// <Image img={require("/img/landform.png")} />
+// </Flex>
 
 Guban gets narrower towards the East and wider towards the West. The Golis range (Oogo) is the escarpment south
 of Guban zone and runs along the coastal lines in the North of the country, where the highest peak known as Surad
@@ -137,4 +140,4 @@ It is arid and hot most of the time, while precipitation is less than 50mm annua
 
 Only 3 percent of the land is, currently, used for crop production, and a further 7 percent is potentially arable.10 Around 60% of the land is used purely for grazing including transhumance pastoralism and about 40% for crop production where rain-fed agriculture is practiced.
 
-<img src="img/farming.jpg" alt="somaliland farms"/>
+<img src="img/farming.jpg" alt="somaliland farms" />

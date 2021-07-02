@@ -3,12 +3,12 @@ sidebar_position: 2
 slug: "goverment"
 ---
 
+import LazyLoad from "../src/components/LazyLoad.js";
+import { Flex, Heading, Image } from "@chakra-ui/react";
+
 # Goverment
 
-import { Flex, Heading } from "@chakra-ui/react"
-import Image from '@theme/IdealImage';
-
-<Image img={require("/img/flag1.jpg")} />
+<LazyLoad src="/img/flag1.jpg" alt="Somaliland flag" />
 
 ## Chapter 1 - Goverment
 
@@ -43,7 +43,9 @@ peacefully and without rift or rancor.
     objectFit="cover" src="img/muusebiixi.jpeg" alt="Somaliland emblem" />
 </Flex> -->
 
-<em>Somaliland President His Excellency President <strong>Musa Bihi Abdi</strong></em>
+<em>
+  Somaliland President His Excellency President <strong>Musa Bihi Abdi</strong>
+</em>
 
 ---
 
@@ -107,26 +109,26 @@ Somaliland officially attained its independence from Britain on June 26, 1960.
 
 ### Flag description
 
-<p style={{flex: 2}}>
-The flag of the Republic of Somaliland consists of three horizontal, parallel
-stripes: green, white and red from top to bottom with the Islamic Shahada
-inscribed on the green and a black, five-pointed star centred on the white,
-middle stripe.
+<p style={{ flex: 2 }}>
+  The flag of the Republic of Somaliland consists of three horizontal, parallel
+  stripes: green, white and red from top to bottom with the Islamic Shahada
+  inscribed on the green and a black, five-pointed star centred on the white,
+  middle stripe.
 </p>
-<img src="img/flag4.png" alt="somaliland flag"/>
+<img loading="lazy" src="img/flag4.png" alt="somaliland flag" />
 
 ### National Emblem
 
-<p style={{flex: 2}}>
-The emblem, set off by a circular yellow background, consists of a coffeecolored
-falcon sitting below two scales and at the bottom of which are two
-hands clasped in a handshake. Starting from an intertwined knot at the
-bottom two, open-ended laurels branch off upwards on either side of the
-scales and the falcon. The Bismillah in Arabic closes the gap at the top of
-the laurels and the words Allahu Akbar (Allah is Great) are inscribed on the
-chest of the falcon.
+<p style={{ flex: 2 }}>
+  The emblem, set off by a circular yellow background, consists of a
+  coffeecolored falcon sitting below two scales and at the bottom of which are
+  two hands clasped in a handshake. Starting from an intertwined knot at the
+  bottom two, open-ended laurels branch off upwards on either side of the scales
+  and the falcon. The Bismillah in Arabic closes the gap at the top of the
+  laurels and the words Allahu Akbar (Allah is Great) are inscribed on the chest
+  of the falcon.
 </p>
-<img src="img/emblem2.png" alt="somaliland emblem"/>
+<img loading="lazy" src="img/emblem2.png" alt="somaliland emblem" />
 
 ### National Anthem
 
@@ -155,4 +157,8 @@ Appellate courts of the regions, regional courts, district courts and the courts
 The Republic of Somaliland’s Constitution permits three national political parties which are currently
 `Kulmiye` (ruling party), `UCID` and `WADDANI` – the two opposition parties.
 
-<img src="img/parties.jpg" alt="somaliland political parties 2021"/>
+<img
+  loading="lazy"
+  src="img/parties.jpg"
+  alt="somaliland political parties 2021"
+/>
