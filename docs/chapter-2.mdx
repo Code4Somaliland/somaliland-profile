@@ -3,13 +3,18 @@ sidebar_position: 3
 slug: "geography"
 ---
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import LazyLoad from "../src/components/LazyLoad.js";
 import { Flex, Heading, Image } from "@chakra-ui/react";
 
 # Geography
 
-<Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
-  <img src="/img/geomap.jpg" loading="lazy" />
+<Flex boxSize="xs" bg="red.200" justify="center" mb={12} px={12}>
+  <LazyLoad
+    src="/img/geomap.jpg"
+    alt="somaliland in the world map"
+    width={400}
+    height={400}
+  />
 </Flex>
 
 ## Chapter 2 - Geography
@@ -102,11 +107,11 @@ ranks 89th in a list of 195 world nations 8 .
 
 Somaliland consists of three topographic zones: coastal plain (Guban), mountain range (Oogo) and plateau (Hawd).
 The Coastal plain “Guban” is between the sea and the mountain range known as “Golis”. This is a narrow and dry strip
-of land the coast and is very hot hence the name `Guban’, meaning “the burnt” in Somali.
+of land the coast and is very hot hence the name `Guban`, meaning the burnt in Somali.
 
-// <Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
-// <Image img={require("/img/landform.png")} />
-// </Flex>
+<Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
+  <LazyLoad src="/img/landform.png" alt="somaliland landmark" />
+</Flex>
 
 Guban gets narrower towards the East and wider towards the West. The Golis range (Oogo) is the escarpment south
 of Guban zone and runs along the coastal lines in the North of the country, where the highest peak known as Surad

@@ -6,13 +6,11 @@ slug: /
 # Introduction
 
 import { Image, Flex, Heading } from "@chakra-ui/react"
+import LazyLoad from "../src/components/LazyLoad.js";
 
-<Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
-  <Image   boxSize="250px"
-    objectFit="cover" src="img/emblem.svg" alt="Somaliland emblem" />
-</Flex>
+  <LazyLoad src="img/emblem.svg" alt="Somaliland emblem" height={200} />
 
-<h1 style={{color:'red', extAlign: 'center'}}>REPUBLIC OF SOMALILAND</h1>
+<h1 style={{color:'red', textAlign: 'center', marginTop: '3rem'}}>REPUBLIC OF SOMALILAND</h1>
 <h2 style={{color:'green', textAlign: 'center'}}>Country Profile 2021</h2>
 
 ---

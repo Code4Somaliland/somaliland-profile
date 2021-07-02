@@ -6,14 +6,11 @@ slug: "demographics"
 # Demographics
 
 import { Image, Flex, Heading } from "@chakra-ui/react";
+import LazyLoad from "../src/components/LazyLoad.js";
 
 <Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
-  <Image
-    objectFit="cover"
-    src="img/people.jpg"
-    alt="Somaliland Map "
-    loading="lazy"
-  />
+  <Image objectFit="cover" loading="lazy" />
+  <LazyLoad src="img/people.jpg" alt="Somaliland People" />
 </Flex>
 
 ## Population
