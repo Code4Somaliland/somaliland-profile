@@ -28,6 +28,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-lazy-load-image-component": "^1.5.1",
+    "react-lightbox-gallery": "^2.0.1",
+    "react-twitter-embed": "^3.0.3",
     "url-loader": "^4.1.1"
   },
   "browserslist": {

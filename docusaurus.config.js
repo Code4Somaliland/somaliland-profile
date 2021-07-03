@@ -24,6 +24,11 @@ module.exports = {
           position: "left",
           label: "About",
         },
+        {
+          to: "/updates",
+          position: "left",
+          label: "Updates",
+        },
       ],
     },
     footer: {
