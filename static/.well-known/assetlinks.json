@@ -1,5 +1,12 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target" : { "namespace": "android_app", "package_name": "com.somalilandprofile.www.twa",
-                   "sha256_cert_fingerprints": ["51:BF:17:D2:C5:E9:AF:4A:09:72:B2:90:AB:53:12:87:F7:F4:0F:70:58:4E:1C:42:E2:1A:CF:92:7E:34:99:AD"] }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.somalilandprofile.www.twa",
+      "sha256_cert_fingerprints": [
+        "21:56:A9:CA:E6:7A:42:4F:87:AA:B8:90:B8:85:CC:2C:B3:53:6E:F2:A2:A4:83:1B:6A:C2:1B:7E:0F:08:3C:BB"
+      ]
+    }
+  }
+]
