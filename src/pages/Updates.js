@@ -22,14 +22,16 @@ export default function Updates() {
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="somalilandmfa"
-            options={{ height: "80vh", width: "100%" }}
+            options={{ height: "80vh" }}
             onLoad={(iframe) => {
               if (iframe) {
                 let body = iframe.contentDocument.querySelector("body");
-            
+                let div =
+                  iframe.contentDocument.querySelector(".timeline-Widget");
+
                 if (body) {
-                  body.style.display = "flex";
-                  body.style.justifyContent = "center";
+                  body.style.width = "100%";
+                  div.style.margin = "0 auto";
                 }
               }
             }}
