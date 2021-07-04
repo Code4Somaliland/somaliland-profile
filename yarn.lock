@@ -7801,11 +7801,6 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-lightbox-gallery@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-lightbox-gallery/-/react-lightbox-gallery-2.0.1.tgz#443d9d09f6d816ad9de333e0ff6fd490ff9832ef"
-  integrity sha512-G5Ao+0FOASCW3YJKT920U7vHHiLNOB0N3yaFOEZCTgt0B6xbNOfrW9/57vNhC22nCurROMaqST2+j/jFuSYujg==
-
 react-loadable-ssr-addon-v5-slorber@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-loadable-ssr-addon-v5-slorber/-/react-loadable-ssr-addon-v5-slorber-1.0.1.tgz#2cdc91e8a744ffdf9e3556caabeb6e4278689883"

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Lightroom from "react-lightbox-gallery";
+
 
 function Gallery() {
   var images = [
@@ -40,7 +40,7 @@ function Gallery() {
   };
   return (
     <div>
-      <Lightroom images={images} settings={settings} />
+    
     </div>
   );
 }

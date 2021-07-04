@@ -6,7 +6,7 @@ import {StarIcon } from '@chakra-ui/icons'
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import Gallery from './../components/Gallery';
+
 
 
 
@@ -72,7 +72,7 @@ export default function Home() {
         <Stack justify="center" align="center" width="100%">
           <Heading>Somaliland in Pictures</Heading>
         </Stack>
-          <Gallery />
+         
       </main>
     </Layout>
   );
