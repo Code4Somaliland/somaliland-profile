@@ -27,3 +27,17 @@
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+#twitter-wrapper {
+  width: 100%;
+}
+
+#twitter-wrapper > div {
+  width: 100%;
+}
+
+#twitter-wrapper #twitter-widget-0 div.timeline-Widget {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

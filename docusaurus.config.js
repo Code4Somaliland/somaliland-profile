@@ -13,12 +13,18 @@ module.exports = {
   projectName: "somomalilandprofile", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Somaliland Profile",
+      title: "Somaliland",
       logo: {
         alt: "Somaliland Logo",
         src: "img/somaliland.svg",
       },
       items: [
+          {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Country Profile',
+        },
         {
           to: "/about",
           position: "left",
