@@ -5,7 +5,8 @@ slug: /
 
 # Introduction
 
-import { Image, Flex, Heading } from "@chakra-ui/react"
+import { Image, Flex, Box, Heading } from "@chakra-ui/react"
+import {StarIcon } from '@chakra-ui/icons'
 import LazyLoad from "../src/components/LazyLoad.js";
 
   <LazyLoad src="img/emblem.svg" alt="Somaliland emblem" height={200} />
@@ -13,42 +14,50 @@ import LazyLoad from "../src/components/LazyLoad.js";
 <h1 style={{color:'red', textAlign: 'center', marginTop: '3rem'}}>REPUBLIC OF SOMALILAND</h1>
 <h2 style={{color:'green', textAlign: 'center'}}>Country Profile 2021</h2>
 
----
+  <Box bg="red" w="100%" p={12} color="white" />
+        <Flex
+          bg="white"
+          w="100%"
+          p={12}
+          color="white"
+          justify="center"
+          align="center"
+        >
+          <StarIcon style={{ color: "black" }} w={12} h={12} color="gray.500" />
+        </Flex>
+        <Box bg="green" w="100%" p={12} color="white" />
 
 ### Somaliland Map
 
 <Flex boxSize="xs" bg="red.200" justify="center" mb={12}>
-  <Image      objectFit="cover" src="img/map1.jpg" alt="Somaliland emblem" />
+   <LazyLoad src="img/somaliland.png" alt="Somaliland map" />
 </Flex>
 
 ---
 
 ### Contents
 
-1. GOVERNMENT
-   - 1.0. Country Name
-   - 1.2. Government type
-   - 1.3. Demonym
-   - 1.4. Capital
-   - 1.5. Major Cities
-   - 1.6. Independence
-   - 1.7. Restoration of Sovereignty
-   - 1.8. Public Holidays
-   - 1.9. Flag description
-   - 1.10. National Emblem
-   - 1.11. National Anthem
-   - 1.12. Constitution
-   - 1.13. Judicial System
-   - 1.14. Political Parties
-2. GEOGRAPHY
-   - 2.0. Location
-   - 2.1. Geographical Coordinates
-   - 2.2. Land boundaries
-   - 2.2.1 Border Treaties and Demarcations
-   - 2.3. Country Area
-   - 2.4. Area - comparative
-   - 2.5. Topography
-   - 2.6. Coastline
-   - 2.7. Maritime Zone
-   - 2.8. Climate
-   - 2.9. Coastal Climate
+#### [Chapter 1 Goverment](/goverment)
+
+#### [Chapter 2 - Geography](/geography)
+
+#### [Chapter 3 - Demographics](/demographics)
+
+#### [Chapter 4 - Historical Background](/historical-background)
+
+#### [Chapter 5 - Rebirth of Somaliland](/rebirth-of-somaliland)
+
+#### [Chapter 6 - Legal Case of Somaliland](/legal-case-of-somaliland)
+
+#### [Chapter 7 - Somaliland Economy](/economy)
+
+#### [Chapter 8 - Somaliland Investment](/investment)
+
+---
+
+:::note Disclaimer
+
+All the contents on this site are extracted from Somaliland Country Profile Book, prepared by Somaliland Ministry of Foreign Affairs & International Cooperation, Republic of Somaliland
+
+The Original Book can be found on the official Website of [Somaliland Ministry of Foreign Affairs & International Cooperation](https://somalilandmfa.com/main/)
+:::

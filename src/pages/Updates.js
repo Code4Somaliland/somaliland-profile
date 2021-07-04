@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import { Heading, Stack, Divider } from "@chakra-ui/react";
+import { Text, Stack, Divider } from "@chakra-ui/react";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 export default function Updates() {
@@ -14,9 +14,9 @@ export default function Updates() {
         width="100%"
         bg="red.200"
       >
-        <Heading style={{ fontSize: "1rem" }} textAlign="center">
+        <Text style={{ fontSize: "1rem" }} textAlign="center">
           Updates from Somaliland Ministry of Foriegn Affiars
-        </Heading>
+        </Text>
         <Divider py={2} />
         <div id="twitter-wrapper">
           <TwitterTimelineEmbed

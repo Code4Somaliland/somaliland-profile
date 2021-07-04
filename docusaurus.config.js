@@ -44,7 +44,7 @@ module.exports = {
           title: "Profile",
           items: [
             {
-              label: "Profile",
+              label: "Country Profile",
               to: "/",
             },
           ],
