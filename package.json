@@ -1,7 +1,12 @@
 {
-  "name": "sprofile",
+  "name": "somalilandprofile",
   "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Mukhtar Janagale",
+    "email": "mukhtar.mahomed@gmail.com",
+    "url": "https://github.com/janogale"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
