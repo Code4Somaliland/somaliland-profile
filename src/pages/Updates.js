@@ -22,7 +22,7 @@ export default function Updates() {
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="somalilandmfa"
-            options={{ height: "80vh" }}
+            options={({ height: "80vh" }, { id: "profile:twitterdev" })}
             onLoad={(iframe) => {
               if (iframe) {
                 let body = iframe.contentDocument.querySelector("body");
