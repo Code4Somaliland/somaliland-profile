@@ -35,6 +35,11 @@ module.exports = {
           position: "left",
           label: "Updates",
         },
+        {
+          to: "https://aqoonsi.com/",
+          position: "left",
+          label: "Aqoonsi.com",
+        },
       ],
     },
     footer: {
