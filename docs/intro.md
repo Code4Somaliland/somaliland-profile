@@ -14,7 +14,7 @@ import LazyLoad from "../src/components/LazyLoad.js";
 <h1 style={{color:'red', textAlign: 'center', marginTop: '3rem'}}>REPUBLIC OF SOMALILAND</h1>
 <h2 style={{color:'green', textAlign: 'center'}}>Country Profile 2021</h2>
 
-  <Box bg="red" w="100%" p={12} color="white" />
+  <Box bg="green" w="100%" p={12} color="white" />
         <Flex
           bg="white"
           w="100%"
@@ -25,7 +25,7 @@ import LazyLoad from "../src/components/LazyLoad.js";
         >
           <StarIcon style={{ color: "black" }} w={12} h={12} color="gray.500" />
         </Flex>
-        <Box bg="green" w="100%" p={12} color="white" />
+        <Box bg="red" w="100%" p={12} color="white" />
 
 ### Somaliland Map
 

@@ -33,7 +33,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <Box bg="red" w="100%" p={48} color="white" />
+        <Box bg="green" w="100%" p={32} color="white" />
         <Flex
           bg="white"
           w="100%"
@@ -44,7 +44,7 @@ export default function Home() {
         >
           <StarIcon style={{ color: "black" }} w={32} h={32} color="gray.500" />
         </Flex>
-        <Box bg="green" w="100%" p={48} color="white" />
+        <Box bg="red" w="100%" p={32} color="white" />
         <Flex justify="center" my="3rem">
           <Stack spacing={8} maxW="48em" px="10px">
             <Text>
